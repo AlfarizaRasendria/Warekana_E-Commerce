@@ -69,8 +69,11 @@ const ProductCard = ({ products }: ProductProps) => {
           </div>
 
           {/* Desc */}
-          <Link className="mt-2" href={product.uri}>
-            <p className="mb-0 fw-semibold" style={{ fontSize: "15px" }}>
+          <Link className="text-decoration-none" href={product.uri}>
+            <p
+              className="mt-2 mb-0 fw-semibold text-dark"
+              style={{ fontSize: "15px" }}
+            >
               {product.productName}
             </p>
             <div className="mt-1">
@@ -81,7 +84,7 @@ const ProductCard = ({ products }: ProductProps) => {
                 $20
               </span>
               <span
-                className="text-decoration-line-through fw-medium"
+                className="text-decoration-line-through fw-medium text-dark"
                 style={{ fontSize: "15px" }}
               >
                 ${product.price}
@@ -97,7 +100,10 @@ const ProductCard = ({ products }: ProductProps) => {
                 <FaStar style={{ fontSize: "15px", color: "#FFAD33" }} />
                 <FaStar style={{ fontSize: "15px", color: "#FFAD33" }} />
               </div>
-              <span className="fw-medium" style={{ fontSize: "15px" }}>
+              <span
+                className="fw-medium text-secondary"
+                style={{ fontSize: "15px" }}
+              >
                 ({product.soldAmount})
               </span>
             </div>
