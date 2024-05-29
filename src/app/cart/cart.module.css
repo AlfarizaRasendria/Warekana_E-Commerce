@@ -1,0 +1,32 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+}
+
+.product {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.summary {
+  border: 1px solid black;
+  border-radius: 6px;
+  margin-top: 3rem;
+  padding: 2rem 4rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.185);
+}
+
+.summaryItem {
+  display: flex;
+  justify-content: space-between;
+}
