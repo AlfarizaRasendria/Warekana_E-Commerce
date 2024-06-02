@@ -9,7 +9,7 @@ const FlashSale = () => {
   let flashSaleProducts = [
     {
       discount: 40,
-      img: "/home-resource/cheeseburger-png.png",
+      img: "/home/cheeseburger-png.png",
       productName: "Cheese Burger",
       price: 25,
       soldAmount: 88,
@@ -17,7 +17,7 @@ const FlashSale = () => {
     },
     {
       discount: 40,
-      img: "/home-resource/cheeseburger-png.png",
+      img: "/home/cheeseburger-png.png",
       productName: "Cheese Burger",
       price: 25,
       soldAmount: 88,
@@ -25,7 +25,7 @@ const FlashSale = () => {
     },
     {
       discount: 40,
-      img: "/home-resource/cheeseburger-png.png",
+      img: "/home/cheeseburger-png.png",
       productName: "Cheese Burger",
       price: 25,
       soldAmount: 88,
@@ -33,7 +33,7 @@ const FlashSale = () => {
     },
     {
       discount: 40,
-      img: "/home-resource/cheeseburger-png.png",
+      img: "/home/cheeseburger-png.png",
       productName: "Cheese Burger",
       price: 25,
       soldAmount: 88,
@@ -152,7 +152,7 @@ const FlashSale = () => {
         {/* Card Slider */}
         <div
           className="d-flex justify-content-between"
-          style={{ width: "100%", marginTop: "25px", marginBottom: "25px" }}
+          style={{ width: "100%", marginTop: "25px", marginBottom: "75px" }}
         >
           {/* Card */}
           <ProductCard products={flashSaleProducts} />
@@ -160,7 +160,7 @@ const FlashSale = () => {
 
         <Link
           href={""}
-          className="m-auto text-decoration-none text-light p-2 rounded"
+          className="m-auto text-decoration-none text-light py-3 px-4 rounded"
           style={{ backgroundColor: "#DB4444" }}
         >
           View All Products

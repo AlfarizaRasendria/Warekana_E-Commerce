@@ -1,0 +1,6 @@
+/* for home's recommendation section only */
+.space-between {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
