@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.undercorateLink {
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.formControl {
+    background-color: #F5F5F5;
+}
+
+.bbThick {
+    border-bottom-style:solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}
+
+.brThick{
+    border-right-style:solid;
+    border-right-width: 2px;
+    border-right-color: black;
+}
+
+main{
+    flex:1
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.greenLight{
+    color: #339966;
+}
+
+.nonRounded{
+    border-radius: 0;
+}
+
+.striketrough{
+    text-decoration: line-through;
+}

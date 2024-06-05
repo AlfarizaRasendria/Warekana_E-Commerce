@@ -1,0 +1,11 @@
+.foodWrapperDetails{
+    width: 500px;
+    height: 600px;
+    background-color:#F5F5F5;
+}
+
+.favoriteIconWrapper{
+    width: 40px;
+    height: 40px;
+    padding:4px;
+}

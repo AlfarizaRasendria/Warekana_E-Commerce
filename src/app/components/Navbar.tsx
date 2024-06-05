@@ -2,6 +2,7 @@ import React from "react";
 import { IoHeartOutline } from "react-icons/io5";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -34,6 +35,7 @@ const Navbar = () => {
 
         {/* Center Nav */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <Link className="nav-link text-light" href="/Product">Product</Link>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link text-light" aria-current="page" href="#">

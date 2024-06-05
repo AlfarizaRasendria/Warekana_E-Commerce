@@ -4,8 +4,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main className="">
-      <Navbar />
-      <Footer />
+      {/* Page-specific content goes here */}
     </main>
   );
 }

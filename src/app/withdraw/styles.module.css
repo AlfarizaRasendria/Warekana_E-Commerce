@@ -1,0 +1,15 @@
+.greenInc{
+    background-color: #0F5152;
+}
+
+.whiteMinusIcon {
+    filter: brightness(0) invert(1);
+}
+
+.customDescBalance{
+    font-size: 1.5rem;
+}
+
+.warekanaPayWrapper{
+    background-color: #D9F7F7;
+}
