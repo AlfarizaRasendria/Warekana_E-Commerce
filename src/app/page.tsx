@@ -4,8 +4,7 @@ import Categories from "./home-components/Categories";
 import BestSelling from "./home-components/BestSelling";
 import Recommendations from "./home-components/Recommendations";
 import SliderInfo from "./home-components/SliderInfo";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 
 export default function Home() {
   let links = [
