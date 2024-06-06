@@ -62,3 +62,6 @@ footer {
 .striketrough{
     text-decoration: line-through;
 }
+* {
+  font-family: var(--font-poppins);
+}
