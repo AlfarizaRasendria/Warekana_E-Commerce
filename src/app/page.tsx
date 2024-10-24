@@ -8,15 +8,15 @@ import SliderInfo from "./home-components/SliderInfo";
 
 export default function Home() {
   let links = [
-    { desc: "Woman's Fashion", uri: "#" },
-    { desc: "Men's Fashion", uri: "#" },
-    { desc: "Electronics", uri: "#" },
-    { desc: "Home & Lifestyle", uri: "#" },
-    { desc: "Medicine", uri: "#" },
-    { desc: "Sports & Outdoor", uri: "#" },
-    { desc: "Baby's Toys", uri: "#" },
-    { desc: "Groceries & Pets", uri: "#" },
-    { desc: "Health & Beauty", uri: "#" },
+    { desc: "Woman's Fashion", uri: "/fashion/women" },
+    { desc: "Men's Fashion", uri: "/fashion/men" },
+    { desc: "Electronics", uri: "/electronics" },
+    { desc: "Home & Lifestyle", uri: "/home-lifestyle" },
+    { desc: "Medicine", uri: "/medicine" },
+    { desc: "Sports & Outdoor", uri: "/sports-outdoor" },
+    { desc: "Baby's Toys", uri: "/babys-toys" },
+    { desc: "Groceries & Pets", uri: "/groceries-pets" },
+    { desc: "Health & Beauty", uri: "/health-beauty" },
   ];
 
   let categories = [

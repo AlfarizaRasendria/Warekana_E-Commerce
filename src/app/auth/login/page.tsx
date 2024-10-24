@@ -19,14 +19,16 @@ export default function LoginPage() {
             <Input type="password" name="password" placeholder="Password" />
           </div>
           <div className="d-flex flex-column justify-content-between items-center mt-4">
-            <button
-              className="btn px-5 py-3"
-              style={{ backgroundColor: "#DB4444", color: "white" }}
-            >
-              Login
-            </button>
+            <a href="/" className="d-flex justify-content-center">
+              <div
+                className="btn px-5 py-3"
+                style={{ backgroundColor: "#DB4444", color: "white" }}
+              >
+                Login
+              </div>
+            </a>
             <Link
-              href="/authenticate/register"
+              href="/auth/register"
               className="btn btn-link"
               style={{ color: "#DB4444", textDecoration: "none" }}
             >

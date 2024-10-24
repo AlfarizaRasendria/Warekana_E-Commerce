@@ -33,7 +33,7 @@ export default function RegisterPage() {
               <a>Register</a>
             </button>
             <p className="mt-4">Already have account?</p>
-            <Link href="/authenticate/login">login</Link>
+            <Link href="/auth/login">login</Link>
           </div>
         </form>
       </section>

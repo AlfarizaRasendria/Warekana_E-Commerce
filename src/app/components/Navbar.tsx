@@ -15,7 +15,7 @@ const Navbar = () => {
         style={{ paddingLeft: "100px", paddingRight: "100px" }}
       >
         {/* Warekana */}
-        <a className="navbar-brand text-light fw-bold fs-5" href="#">
+        <a className="navbar-brand text-light fw-bold fs-5" href="../about">
           Warekana
         </a>
 
@@ -35,11 +35,10 @@ const Navbar = () => {
 
         {/* Center Nav */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <Link className="nav-link text-light" href="/Product">Product</Link>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link text-light" aria-current="page" href="#">
-                Home
+              <a className="nav-link text-light" aria-current="page" href="../about">
+                About
               </a>
             </li>
             <li className="nav-item">
@@ -48,12 +47,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-light" href="#">
+              <a className="nav-link text-light" href="../topUp">
                 Top Up
               </a>
             </li>
@@ -74,12 +68,12 @@ const Navbar = () => {
           {/* Usable dropdown for Profile logo */}
           <ul className="navbar-nav d-flex ">
             <li className="nav-item pe-3">
-              <a className="nav-link text-light" href="#">
+              <a className="nav-link text-light" href="../wishlist">
                 <IoHeartOutline style={{ fontSize: "30px" }} />
               </a>
             </li>
             <li className="nav-item pe-3">
-              <a className="nav-link text-light" href="#">
+              <a className="nav-link text-light" href="../cart">
                 <IoCartOutline style={{ fontSize: "2rem" }} />
               </a>
             </li>
@@ -107,6 +101,11 @@ const Navbar = () => {
                 <li>
                   <a className="dropdown-item" href="#">
                     Something else here
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="../auth/login">
+                    Logout
                   </a>
                 </li>
               </ul>

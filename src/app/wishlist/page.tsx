@@ -1,4 +1,4 @@
-import ProductCard from "../components/ProductCard";
+import ProductCard from "../components/ProductCard/ProductCard";
 import { BsTrash3 } from "react-icons/bs";
 
 const WislistPage = () => {
